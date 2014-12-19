@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1418973278 source:c:\documents and settings\stud\Рабочий стол\5labaavd\main.cpp
+	"sdt.h"
+	"svsp.h"
+	<iostream>
+	<cassert>
+
+1418972958 c:\documents and settings\stud\Рабочий стол\5labaavd\svsp.h
+	<cstddef>
+	<iostream>
+
+1418972807 source:c:\documents and settings\stud\Рабочий стол\5labaavd\svsp.cpp
+	"svsp.h"
+	<iostream>
+	<cstddef>
+
+1414132830 c:\documents and settings\stud\Рабочий стол\5labaavd\sdt.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
+1418974750 source:f:\5labaavd\svsp.cpp
+	"svsp.h"
+	<iostream>
+	<cstddef>
+
+1418972958 f:\5labaavd\svsp.h
+	<cstddef>
+	<iostream>
+
+1418974798 source:f:\5labaavd\main.cpp
+	"sdt.h"
+	"svsp.h"
+	<iostream>
+	<cassert>
+
+1414132830 f:\5labaavd\sdt.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
+1418996531 source:c:\users\bigleb32\desktop\5labaavd\main.cpp
+	"sdt.h"
+	"svsp.h"
+	<iostream>
+	<cassert>
+
+1414129230 c:\users\bigleb32\desktop\5labaavd\sdt.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
+1418996531 c:\users\bigleb32\desktop\5labaavd\svsp.h
+	<cstddef>
+	<iostream>
+
+1418996531 source:c:\users\bigleb32\desktop\5labaavd\svsp.cpp
+	"svsp.h"
+	<iostream>
+	<cstddef>
+

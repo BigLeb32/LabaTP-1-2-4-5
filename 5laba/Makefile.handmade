@@ -1,0 +1,24 @@
+PROGRAM	=	Lab05.exe
+SOURCES	=	svsp.cpp	main.cpp
+HEADERS	=	svsp.h	        sdt.h
+
+OBJECTS	=	$(SOURCES:.cpp=.o)
+
+all:	$(SOURCES)	$(HEADERS)	$(PROGRAM)	analysis
+
+$(PROGRAM):	$(OBJECTS)
+	g++	$(OBJECTS)	-o	$(PROGRAM)
+
+.cpp.o:
+	g++	-c	-std=c++14	$<	-o	$@
+
+clean:
+	del	/Q	$(PROGRAM)
+	del	/Q	$(OBJECTS)
+	del	/Q	analysis.txt
+
+analysis:	$(SOURCES)	$(HEADERS)	analysis.txt
+
+analysis.txt: 	$(SOURCES)	svsp.h
+	cppcheck	$(SOURCES)	svsp.h	        2>analysis.txt
+
